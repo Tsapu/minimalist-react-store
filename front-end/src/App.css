@@ -1,0 +1,32 @@
+:root {
+  --site-width: 1440px;
+  --header-height: 5rem;
+  --pad-lg: 100px;
+  --pad-md: 50px;
+  --pad-sm: 15px;
+  --black: #1D1F22;
+  /* 
+  Breakpoints:
+  -----------
+  sm: 576px;
+  md: 768px;
+  lg: 992px;
+  xl: 1200px; */
+}
+
+.container {
+  max-width: var(--site-width);
+  padding: 0 var(--pad-lg);
+  margin: auto;
+}
+@media(max-width: 1200px) {
+  .container { padding: 0 var(--pad-md); }
+}
+@media(max-width: 576px) {
+  .container { padding: 0 var(--pad-sm); }
+}
+
+body {
+  font-family: 'Raleway', sans-serif; /* Raleway, Roboto, Roboto Condensed, Source Sans Pro, */
+  color: var(--black);
+}

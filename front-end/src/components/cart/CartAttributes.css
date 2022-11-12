@@ -1,0 +1,22 @@
+.attr.cart {
+  cursor: initial;
+  outline: none;
+}
+
+.attr-bool {
+  width: auto;
+  padding: 0 .5rem;
+}
+
+.cart.attr.small {
+  font-size: 14px;
+  height: auto;
+  min-height: 24px;
+  width: auto;
+  min-width: 24px;
+  padding: 0 .25rem;
+}
+.cart.attr.small.color {
+  width: 24px;
+  height: 24px;
+}

@@ -1,0 +1,19 @@
+.slide-controls {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media(max-width: 992px) {
+  .slide-controls {
+    visibility: visible;
+  }
+}
+
+.spotlight-container:hover .slide-controls,
+.product-img .slide-controls {
+  visibility: visible;
+}

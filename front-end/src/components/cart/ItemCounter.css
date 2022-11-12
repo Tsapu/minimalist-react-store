@@ -1,0 +1,41 @@
+.count-box {
+  display: flex;
+}
+.count-controls {
+  margin: 0 .75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.count-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--black);
+  cursor: pointer;
+}
+.count-control svg {
+  width: 40%;
+}
+.count-control.small {
+  width: 24px;
+  height: 24px;
+}
+.count-control.large {
+  width: 45px;
+  height: 45px;
+}
+
+@media(max-width: 576px) {
+  .count-control.large {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.count {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+

@@ -1,0 +1,50 @@
+.attr-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.attr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 63px;
+  height: 45px;
+  padding: 0 .5rem;
+  border: 1px solid var(--black);
+  text-align: center;
+  cursor: pointer;
+}
+.attr:not(:last-child) {
+  margin-right: .75rem;
+  margin-bottom: .5rem;
+}
+
+.attr.default.active {
+  background: var(--black);
+  color: #FFF;
+}
+
+.attr.color {
+  color: transparent;
+  padding: 0;
+}
+.attr.active {
+  outline: 1px solid var(--black);
+}
+.attr.color.inactive {
+  opacity: .4;
+}
+
+@media(max-width: 576px) {
+  .attr {
+    font-size: 12px !important;
+    height: 32px;
+    min-width: 32px;
+  }
+}
+
+.attr {
+  font-family: 'source sans pro';
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}

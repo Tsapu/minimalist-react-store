@@ -1,0 +1,1 @@
+## Minimalistic React store

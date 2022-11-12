@@ -1,0 +1,24 @@
+.total {
+  margin-bottom: 2.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.cart-main .total {
+  margin-top: 4rem;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+}
+.cart-main .total-lbl {
+  margin-right: 2rem;
+}
+.cart-main .total-lbl::after {
+  content: ":"; 
+}
+
+.total-lbl {
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.total-val {
+  font-weight: 700;
+}

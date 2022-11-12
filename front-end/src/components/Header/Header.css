@@ -1,0 +1,22 @@
+.header-span {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  z-index: 100;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--header-height);
+}
+.main.container { padding-top: var(--header-height); }
+.header .controls {
+  display: flex;
+  margin-right: 10px;
+}
+.site-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

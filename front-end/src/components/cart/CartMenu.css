@@ -1,0 +1,26 @@
+.cart-menu {
+  position: absolute;
+  min-width: 21rem;
+  background-color: #fff;
+  top: var(--header-height);
+  right: var(--pad-lg);
+  padding: .5rem 1rem 1.25rem;
+  z-index: 15;
+}
+@media(max-width: 1200px) {
+  .cart-menu { right: var(--pad-md); }
+}
+@media(max-width: 576px) {
+  .cart-menu {
+    width: 92%;
+    left: 4%;
+    right: 4%;
+  }
+}
+
+.cart-menu .cart-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 22.5rem;
+  overflow: auto;
+}

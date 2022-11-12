@@ -1,0 +1,28 @@
+.cart-sc {
+  position: relative;
+  margin-left: 1.5rem;
+}
+.cart-counter {
+  position: absolute;
+  top: 0;
+  transform: translate(50%, -50%);
+  height: 20px;
+  min-width: 20px;
+  color: #fff;
+  background-color: var(--black);
+  border-radius: 50%;
+  cursor: pointer;
+  animation-duration: .3s;
+  animation-name: Pop;
+}
+@keyframes Pop {
+  0% { box-shadow: none; }
+  50% { box-shadow: 0px 0px 2px 2px var(--black) }
+  100% { box-shadow: none; }
+}
+
+.cart-counter {
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 14px;
+}

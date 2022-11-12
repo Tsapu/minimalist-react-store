@@ -1,0 +1,9 @@
+.cart-list .product-img {
+  width: 140px;
+  height: 185px;
+}
+@media(max-width: 576px) {
+  .cart-list .product-img {
+    max-width: 110px;
+  }
+}

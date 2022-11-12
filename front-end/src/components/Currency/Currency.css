@@ -1,0 +1,12 @@
+.currency {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cart-menu .currency { font-size: 1em; }
+
+.cart-main .currency,
+.product-preview .currency {
+  font-weight: 700;
+  font-size: 1.5em; 
+}
